@@ -1,0 +1,24 @@
+.stats{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+.stats>li{
+	padding: 8px;
+	background-color: rgb(151, 255, 250);
+	flex: 1;
+	border: 1px solid rgb(74, 74, 74);
+}
+.label{
+	 display: block;
+	 font-size: 16px;
+	 text-align: center;
+	 
+}
+.quantity{
+	display: block;
+		text-align: center;
+	
+}
