@@ -1,16 +1,12 @@
 // import PropTypes from "prop-types";
-import { UserCard } from "./User/userCard/UserCard";
+import { UserCard } from './User/userCard/UserCard';
 import Statistics from 'components/Statistics/Statistics';
 import FriendList from 'components/FriendList/FriendList';
 import TransactionList from 'components/TransactionHistory/TransactionsList/TransactionsList';
 
-
 import data from 'data/data.json';
-import friends from 'data/friends.json'
+import friends from 'data/friends.json';
 import transactions from 'data/transactions.json';
-
-
-
 
 export const App = () => {
   return (
